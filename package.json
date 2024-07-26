@@ -17,7 +17,8 @@
     "react-router-dom": "^6.25.1",
     "tailwind-fontawesome": "^0.7.1",
     "tailwind-scrollbar-hide": "^1.1.7",
-    "tailwind-typewriter": "^1.0.1"
+    "tailwind-typewriter": "^1.0.1",
+    "taos": "^1.0.5"
   },
   "devDependencies": {
     "@iconify/tailwind": "^1.1.1",

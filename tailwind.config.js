@@ -1,18 +1,20 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  safelist: [
+    '!duration-[0ms]',
+    '!delay-[0ms]',
+    'html.js :where([class*="taos:"]:not(.taos-init))'
+  ],
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
-      fontFamily: {
-        'Zain':["Zain", "sans-serif"],
-      },
-
+      
       marginBottom: {
         '500px': '500px',
-      }
+      },
     },
   },
   plugins: [
@@ -20,11 +22,14 @@ export default {
     require('tailwind-typewriter')({
       wordsets: {
           names: {
-              words: ['Hi, my name is John Dang'],
-              delay: 3
+              words: ['John', 'Frontend Developer', 'Software Engineer'],
+              delay: 1
           },
       }
-  })
+  }),
+  require('taos/plugin')
   ],
+
+  
 };
 
