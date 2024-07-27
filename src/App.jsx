@@ -22,7 +22,7 @@ const App = () => {
             <h1 className="text-8xl font-bold type-names text-left text-gray-50 mt-10"></h1>
           </div>
 
-          <img className="h-96 rounded-full absolute right-64" src="public/images/duck.png" alt="profile-pic"/>
+          <img className="h-96 rounded-full absolute right-64" src="images/duck.png" alt="profile-pic"/>
 
           <div className="text-left items-center flex gap-5">
             <a
@@ -89,7 +89,7 @@ const App = () => {
           <div className="flex flex-row gap-10 text-white">
             <section className="mb-48 p-10 bg-gray-400 rounded-xl bg-opacity-5">
               <div className="flex justify-center items-center flex-col gap-10 max-w-md h-209">
-                <img className="h-40" src="public/images/nasa-logo.webp" alt="nasa-pic"/>
+                <img className="h-40" src="images/nasa-logo.webp" alt="nasa-pic"/>
                 <p className="text-start">
                   I played a pivotal software engineering role at NASA NCAS, collaborating with a multidisciplinary team to prototype a rover model for a simulated Martian environment. My responsibilities included programming the rover with intelligence and agility, conducting comprehensive research on in-situ resource utilization and space exploration processes, and demonstrating a commitment to advancing the frontiers of space exploration.
                 </p>
@@ -98,7 +98,7 @@ const App = () => {
 
             <section className="mb-48 p-10 bg-gray-400 rounded-xl bg-opacity-5">
               <div className="flex justify-center items-center flex-col gap-10 max-w-md h-209">
-                <img src="public/images/dfs-logo.png" alt="dreamsforschools"/>
+                <img src="images/dfs-logo.png" alt="dreamsforschools"/>
                 <p className="text-start">
                   I taught essential web development concepts, including HTML, CSS, and JavaScript, to over 40 middle school students in the Yorba Linda and Irvine districts, providing comprehensive lessons and hands-on learning experiences. Additionally, I introduced STEM fundamentals to over 60 elementary school students through hands-on projects.
                 </p>
@@ -107,7 +107,7 @@ const App = () => {
 
             <section className="mb-48 p-10 bg-gray-400 backdrop-blur-xl rounded-xl bg-opacity-5">
               <div className="flex justify-center items-center flex-col gap-10 max-w-md h-209">
-                <img className="rounded-full w-40" src="src/public/images/camera.webp" alt="photography"/>
+                <img className="rounded-full w-40" src="images/camera.webp" alt="photography"/>
                 <p className="text-start">
                   I established and operated SpiceChi, a successful photography brand specializing in weddings, engagements, graduations, corporate events, and school events. With five years of extensive experience, I delivered exceptional results using advanced techniques and equipment. I provided services for renowned companies like Johnson & Johnson, Dreams For Schools, The Electric Bike Co, Big Brothers Big Sisters, Girl Scouts Of America, and IUSD, capturing images that aligned with their branding. Through SpiceChi, I documented weddings and engagements, capturing memorable moments and collaborating closely with clients to meet their specific needs.
                 </p>
