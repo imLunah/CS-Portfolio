@@ -107,7 +107,7 @@ const App = () => {
 
             <section className="mb-48 p-10 bg-gray-400 backdrop-blur-xl rounded-xl bg-opacity-5">
               <div className="flex justify-center items-center flex-col gap-10 max-w-md h-209">
-                <img className="rounded-full w-40" src="public/images/camera.webp" alt="photography"/>
+                <img className="rounded-full w-40" src="src/public/images/camera.webp" alt="photography"/>
                 <p className="text-start">
                   I established and operated SpiceChi, a successful photography brand specializing in weddings, engagements, graduations, corporate events, and school events. With five years of extensive experience, I delivered exceptional results using advanced techniques and equipment. I provided services for renowned companies like Johnson & Johnson, Dreams For Schools, The Electric Bike Co, Big Brothers Big Sisters, Girl Scouts Of America, and IUSD, capturing images that aligned with their branding. Through SpiceChi, I documented weddings and engagements, capturing memorable moments and collaborating closely with clients to meet their specific needs.
                 </p>
