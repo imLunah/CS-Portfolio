@@ -1,6 +1,9 @@
 # Portfolio
 
-My career portfolio and list of WIPs that I want to implement for the future.
+My career portfolio and list of WIPs that I want to implement for the future. <br>
+https://johndang.dev/
+
+<hr>
 
 ## Current Releases
 - [x] Build and deploy a personal portfolio website 
