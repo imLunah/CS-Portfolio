@@ -44,3 +44,8 @@ html {
 .read-the-docs {
   color: #888;
 }
+
+canvas {
+  width: 50vw;
+
+}
