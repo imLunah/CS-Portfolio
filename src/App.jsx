@@ -49,7 +49,7 @@ const App = () => {
               <Canvas camera={{ position: [1, 1, 200] }}>
                 <ambientLight intensity={2} />
                 <OrbitControls enableZoom={false} enablePan={false} />
-                <Suspense fallback={<span> Loading... </span>}>
+                <Suspense>
                   <Ghost scale={[1, 1, 1]} />
                 </Suspense>
                 <Environment preset='sunset' />
