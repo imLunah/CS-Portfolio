@@ -6,9 +6,9 @@ export default {
   ],
   theme: {
     extend: {
-      
-      marginBottom: {
-        '500px': '500px',
+
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(90deg, #151628, #26193c, #481b52)',
       },
     },
   },
@@ -16,13 +16,12 @@ export default {
     require('tailwind-typewriter')({
       wordsets: {
           names: {
-              words: ['John', 'Frontend Developer', 'Software Engineer'],
+              words: ['John Dang', 'Frontend Developer', 'Software Engineer'],
               delay: 1
+
           },
       }
   }),
   ],
-
-  
 };
 
