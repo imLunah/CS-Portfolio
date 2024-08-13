@@ -13,7 +13,7 @@ const App = () => {
   return (
     <IconContext.Provider value={{ color: "white", size: "4em" }}>
       <div>
-        <section className="mt-32 mb-20 md:mt-52 md:mb-[500px] flex flex-col gap-10 md:gap-20 items-center md:items-start">
+        <section className="mt-10 mb-20 md:mt-52 md:mb-[500px] flex flex-col gap-10 md:gap-20 items-center md:items-start">
           <div className="flex flex-col flex-wrap max-w-xl text-center md:text-left xl:ml-40">
             <h1 className="text-6xl md:text-8xl font-bold text-gray-50 bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
               Hello, I'm
