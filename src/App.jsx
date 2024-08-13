@@ -25,7 +25,7 @@ const App = () => {
 
           <div className="flex gap-3 md:gap-5 xl:ml-40">
             <a
-              className="btn bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-white py-2 px-4 md:py-2 md:px-6"
+              className="btn bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-white py-2 px-4 md:px-6"
               href="https://docs.google.com/document/d/1yOVS3SOW-E1OXmeGGq9JF6tBK4x5FPqNTSY_wzada3M/edit?usp=sharing"
               target="_blank"
             >
@@ -57,7 +57,7 @@ const App = () => {
               <p className="text-center"> Rotate me! </p>
             </div>
 
-            <p className="text-xl md:text-3xl text-center ">
+            <p className="text-xl md:text-3xl text-center max-w-4xl">
               My name is John Dang, and I am currently a student at Cal Poly Pomona. I have developed a robust skill set in various programming languages and frameworks. Below showcases my knowledge and skills I am currently learning. While my experience spans both frontend and backend technologies, I preferably work in frontend web development however, I am open to working with backend.
             </p>
           </div>
