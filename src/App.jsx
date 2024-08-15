@@ -84,7 +84,8 @@ const App = () => {
         <section className="mt-32 md:mt-96 flex flex-col items-center" id="experience">
           <h1 className="text-4xl md:text-5xl font-bold mb-10 text-center text-gray-50">Experience</h1>
           <div className="flex flex-col md:flex-col lg:flex-row gap-10 text-white px-4 md:px-0">
-            <section className="mb-10 md:mb-48 p-6 md:p-10 bg-gray-400 rounded-xl bg-opacity-5">
+
+            <section className="mb-10 p-6 md:p-10 bg-gray-400 rounded-xl bg-opacity-5">
               <div className="flex flex-col gap-10 max-w-md h-209 justify-center items-center">
                 <img className="w-40 flex" src="images/nasa-logo.webp" alt="nasa-pic" />
                 <p className="text-start">
@@ -93,7 +94,7 @@ const App = () => {
               </div>
             </section>
 
-            <section className="mb-10 md:mb-48 p-6 md:p-10 bg-gray-400 rounded-xl bg-opacity-5">
+            <section className="mb-10 p-6 md:p-10 bg-gray-400 rounded-xl bg-opacity-5">
               <div className="flex flex-col gap-10 max-w-md h-209 justify-center items-center">
                 <img src="images/dfs-logo.png" alt="dreamsforschools" />
                 <p className="text-start">
@@ -102,7 +103,7 @@ const App = () => {
               </div>
             </section>
 
-            <section className="mb-10 md:mb-48 p-6 md:p-10 bg-gray-400 backdrop-blur-xl rounded-xl bg-opacity-5">
+            <section className="mb-10 p-6 md:p-10 bg-gray-400 backdrop-blur-xl rounded-xl bg-opacity-5">
               <div className="flex flex-col gap-10 max-w-md h-209 justify-center items-center">
                 <img className="rounded-full w-40" src="images/camera.webp" alt="photography" />
                 <p className="text-start">
@@ -115,33 +116,91 @@ const App = () => {
 
         <section className="mt-32 md:mt-96 flex flex-col items-center" id="projects">
           <h1 className="text-4xl md:text-5xl font-bold mb-10 text-center text-gray-50">Projects</h1>
-          <div className="flex flex-col md:flex-col lg:flex-row gap-10 text-white px-4 md:px-0">
-            <section className="mb-10 md:mb-48 p-6 md:p-10 bg-gray-400 rounded-xl bg-opacity-5">
+          <div className="flex flex-col md:flex-col lg:flex-row lg:flex-wrap items-center justify-center gap-10 text-white px-4 md:px-0">
+
+            <section className="mb-10 p-6 md:p-10 bg-gray-400 rounded-xl bg-opacity-5 hover:scale-110 transition duration 300 ease-in-out hover:shadow-lg hover:shadow-black">
               <div className="flex flex-col gap-10 max-w-md h-209 justify-center items-center">
-                
-                <p className="text-start">
-                 
-                </p>
+                <p className="text-center font-bold text-2xl"> Porsche Design Concepts </p>
+                <img alt="porsche-concepts" src="https://github.com/imLunah/Porsche-Design-Concept/blob/master/preview.gif?raw=true" />
+                <div className="flex justify-center items-center flex-row">
+                  <p className="font-semibold px-4 rounded-full opacity-50"> HTML </p>
+                  <p className="font-semibold px-4 rounded-full opacity-50"> CSS </p>
+                  <p className="font-semibold px-4 rounded-full opacity-50"> Javascript </p>
+                  <p className="font-semibold px-4 rounded-full opacity-50"> Vue </p>
+                  <p className="font-semibold px-4 rounded-full opacity-50"> Three.JS </p>
+
+                </div>
+                <a
+                  className="btn border-solid border-2 rounded-full text-white py-1 px-4 md:px-6 opacity-50 hover:opacity-90"
+                  href="https://github.com/imLunah/Porsche-Design-Concept"
+                  target="_blank"
+                > View Project </a>
               </div>
             </section>
 
-            <section className="mb-10 md:mb-48 p-6 md:p-10 bg-gray-400 rounded-xl bg-opacity-5">
+            <section className="mb-10 p-6 md:p-10 bg-gray-400 rounded-xl bg-opacity-5 hover:scale-110 transition duration 300 ease-in-out hover:shadow-lg hover:shadow-black">
               <div className="flex flex-col gap-10 max-w-md h-209 justify-center items-center">
-               
-                <p className="text-start">
-                  
-                </p>
+                <p className="text-center font-bold text-2xl"> Valorant Playercards </p>
+                <img alt="valorant-playercards" src="https://raw.githubusercontent.com/imLunah/Valorant-Playercards/main/src/images/valorant-card.png" />
+                <div className="flex justify-center items-center flex-row">
+                  <p className="font-semibold px-4 rounded-full opacity-50"> HTML </p>
+                  <p className="font-semibold px-4 rounded-full opacity-50"> CSS </p>
+                  <p className="font-semibold px-4 rounded-full opacity-50"> Javascript </p>
+                  <p className="font-semibold px-4 rounded-full opacity-50"> React </p>
+                  <p className="font-semibold px-4 rounded-full opacity-50"> Vite </p>
+
+                </div>
+                <a
+                  className="btn border-solid border-2 rounded-full text-white py-1 px-4 md:px-6 opacity-50 hover:opacity-90"
+                  href="https://github.com/imLunah/Valorant-Playercards"
+                  target="_blank"
+                > View Project </a>
               </div>
             </section>
 
-            <section className="mb-10 md:mb-48 p-6 md:p-10 bg-gray-400 backdrop-blur-xl rounded-xl bg-opacity-5">
+            <section className="mb-10 p-6 md:p-10 bg-gray-400 rounded-xl bg-opacity-5 hover:scale-110 transition duration 300 ease-in-out hover:shadow-lg hover:shadow-black">
               <div className="flex flex-col gap-10 max-w-md h-209 justify-center items-center">
-                
-                <p className="text-start">
-                  
-                </p>
+                <p className="text-center font-bold text-2xl"> Prime Crawler </p>
+                <img alt="prime-crawler" src="https://raw.githubusercontent.com/imLunah/Prime-Crawler/master/image.png" />
+                <div className="flex justify-center items-center flex-row">
+                  <p className="font-semibold px-4 rounded-full opacity-50"> HTML </p>
+                  <p className="font-semibold px-4 rounded-full opacity-50"> CSS </p>
+                  <p className="font-semibold px-4 rounded-full opacity-50"> Javascript </p>
+                  <p className="font-semibold px-4 rounded-full opacity-50"> Perl </p>
+
+
+                </div>
+                <a
+                  className="btn border-solid border-2 rounded-full text-white py-1 px-4 md:px-6 opacity-50 hover:opacity-90"
+                  href="https://github.com/imLunah/Prime-Crawler"
+                  target="_blank"
+                > View Project </a>
+              </div>
+
+            </section>
+
+            <section className="mb-10 p-6 md:p-10 bg-gray-400 rounded-xl bg-opacity-5 hover:scale-110 transition duration 300 ease-in-out hover:shadow-lg hover:shadow-black">
+              <div className="flex flex-col gap-10 max-w-md h-209 justify-center items-center">
+                <p className="text-center font-bold text-2xl"> Ari's Fauna </p>
+                <img alt="aris-fauna" src="https://user-images.githubusercontent.com/77595303/195328321-2c5baab2-c601-44ab-ae50-d08ca12e0f2f.jpg" />
+                <div className="flex justify-center items-center flex-row">
+                  <p className="font-semibold px-4 rounded-full opacity-50"> Unity </p>
+                  <p className="font-semibold px-4 rounded-full opacity-50"> C# </p>
+                  <p className="font-semibold px-4 rounded-full opacity-50"> ShaderLab </p>
+                  <p className="font-semibold px-4 rounded-full opacity-50"> ASP.NET </p>
+                  <p className="font-semibold px-4 rounded-full opacity-50"> HLSL </p>
+                </div>
+                <a
+                  className="btn border-solid border-2 rounded-full text-white py-1 px-4 md:px-6 opacity-50 hover:opacity-90"
+                  href="https://github.com/imLunah/Ari-s-Fauna"
+                  target="_blank"
+                > View Project </a>
               </div>
             </section>
+
+
+
+
           </div>
         </section>
       </div>
