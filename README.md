@@ -10,6 +10,7 @@ https://johndang.dev/
 - [x] Develop a personal website using Vite and Tailwind CSS
 - [x] Replaced local icons with React Icons
 - [x] Implement Three.JS / React Three Fiber to support 3D models
+- [x] Responsive on all devices
 
 ## Future Releases
 - [ ] Implement animated load-ups
@@ -22,5 +23,4 @@ https://johndang.dev/
 - [ ] Better About Me section design
 
 ## Known Issues
-- [ ] Currently not responsive for mobile devices & smaller width
-- [ ] Typing animation header slightly distorts the screen
+
